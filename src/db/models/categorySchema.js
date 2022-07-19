@@ -12,6 +12,6 @@ const categorySchema = new mongoose.Schema({
 
 })
 
-const userModel = mongoose.model("admin",categorySchema)
+const userModel = mongoose.model("categoryname",categorySchema)
 
 module.exports = userModel;
