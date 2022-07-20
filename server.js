@@ -25,7 +25,7 @@ app.use(cors());
 //json
 app.use(express.json());
 //Database connection
-// connectDb(DATABASE_URL_ATLAS);
+
 connectDb(DATABASE_URL_LOCAL, DATABASE_URL_ATLAS);
 
 //for Loading Routes
